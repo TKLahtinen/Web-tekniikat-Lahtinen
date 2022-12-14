@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form id="noteForm">
+        <label for="name">Name</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="note">Note</label>
+        <br>
+        <textarea name="note" id="note" cols="30" rows="10"></textarea>
+        <br>
+        <input type="checkbox" name="important" id="important">
+        <label for="important">Important</label>
+        <br>
+        <button id="sendButton">Add note</button>
+    </form>
+    <div class="sentNotes">
+
+    </div>
 </body>
 </html>
