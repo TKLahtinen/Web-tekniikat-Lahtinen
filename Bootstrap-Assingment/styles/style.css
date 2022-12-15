@@ -2,12 +2,16 @@ html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+body{
+    background-color: #060949;
+}
+
 header{
-    
     max-width: 100%;
     background-color: #010326;
-    background-size: 100% 100%;
+    height: 25vh;
     color: #E4EDF2;
+    text-align: center;
 }
 
 .headerBC{
@@ -16,7 +20,6 @@ header{
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    border-bottom-left-radius: 6px;
     height: 34px;
     width: 179px;
 }
@@ -24,4 +27,17 @@ header{
 nav{
     height: 50px;
     background-color: #59574C;
+}
+
+.navBC{
+    background-color: #59574C;
+}
+
+.containerBC{
+    background-color: #010326;
+}
+
+footer{
+    background-color: #465902;
+    margin-bottom: 0px;
 }
