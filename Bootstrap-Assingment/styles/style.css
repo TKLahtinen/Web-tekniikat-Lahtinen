@@ -1,0 +1,27 @@
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+    
+    max-width: 100%;
+    background-color: #010326;
+    background-size: 100% 100%;
+    color: #E4EDF2;
+}
+
+.headerBC{
+    background-color: #0103267e;
+    color: #E4EDF2;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    border-bottom-left-radius: 6px;
+    height: 34px;
+    width: 179px;
+}
+
+nav{
+    height: 50px;
+    background-color: #59574C;
+}
