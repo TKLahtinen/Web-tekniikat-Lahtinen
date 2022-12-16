@@ -37,7 +37,15 @@ nav{
     background-color: #010326;
 }
 
+.colBC{
+    background-color: #E4EDF2;
+}
+
 footer{
     background-color: #465902;
     margin-bottom: 0px;
+}
+
+.orderFormBC{
+    background-color: #E4EDF2;
 }
