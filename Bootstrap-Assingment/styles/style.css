@@ -41,6 +41,32 @@ nav{
     background-color: #E4EDF2;
 }
 
+#collapseOne > .accordion-body > .btn-dark{
+    background-color: #010326;
+}
+
+#collapseOne > .accordion-body > .btn-dark:hover{
+    background-color: #060949;
+}
+
+#collapseOne > .accordion-body > button > a{
+    text-decoration: none;
+    color: #E4EDF2;
+}
+
+#collapseThree > .accordion-body > .btn-dark{
+    background-color: #010326;
+}
+
+#collapseThree > .accordion-body > .btn-dark:hover{
+    background-color: #060949;
+}
+
+#collapseThree > .accordion-body > button > a{
+    text-decoration: none;
+    color: #E4EDF2;
+}
+
 footer{
     background-color: #465902;
     margin-bottom: 0px;
