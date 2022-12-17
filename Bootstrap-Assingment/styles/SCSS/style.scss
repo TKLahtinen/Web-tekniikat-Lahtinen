@@ -1,22 +1,29 @@
+$fillColor: #060949;
+$mainColor: #010326;
+$highlightColor: #E4EDF2;
+$navColor: #59574C;
+$footerColor: #465902;
+
+
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
-    background-color: #060949;
+    background-color: $fillColor;
 }
 
 header{
     max-width: 100%;
-    background-color: #010326;
+    background-color: $mainColor;
     height: 25vh;
-    color: #E4EDF2;
+    color: $highlightColor;
     text-align: center;
 }
 
 .headerBC{
-    background-color: #0103267e;
-    color: #E4EDF2;
+    background-color: $mainColor;
+    color: $highlightColor;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -26,63 +33,63 @@ header{
 
 nav{
     height: 50px;
-    background-color: #59574C;
+    background-color: $navColor;
 }
 
 .navBC{
-    background-color: #59574C;
+    background-color: $navColor;
 }
 
 .containerBC{
-    background-color: #010326;
+    background-color: $mainColor;
 }
 
 .colBC{
-    background-color: #E4EDF2;
+    background-color: $highlightColor;
 }
 
 #collapseOne > .accordion-body > .btn-dark{
-    background-color: #010326;
+    background-color: $mainColor;
 }
 
 #collapseOne > .accordion-body > .btn-dark:hover{
-    background-color: #060949;
+    background-color: $fillColor;
 }
 
 #collapseOne > .accordion-body > button > a{
     text-decoration: none;
-    color: #E4EDF2;
+    color: $highlightColor;
 }
 
 #collapseThree > .accordion-body > .btn-dark{
-    background-color: #010326;
+    background-color: $mainColor;
 }
 
 #collapseThree > .accordion-body > .btn-dark:hover{
-    background-color: #060949;
+    background-color: $fillColor;
 }
 
 #collapseThree > .accordion-body > button > a{
     text-decoration: none;
-    color: #E4EDF2;
+    color: $highlightColor;
 }
 
 #orderButton {
-    color: #E4EDF2;
-    background-color: #010326;
+    color: $highlightColor;
+    background-color: $mainColor;
 }
 
 #orderButton:hover{
-    background-color: #060949;
+    background-color: $fillColor;
 }
 
 footer{
-    background-color: #465902;
+    background-color: $footerColor;
     margin-bottom: 0px;
 }
 
 .orderFormBC{
-    background-color: #E4EDF2;
+    background-color: $highlightColor;
 }
 
 footer > ul{
@@ -96,14 +103,14 @@ footer > ul > li{
 
 footer > ul > li:not(:first-child)::before{
     content: "|";
-    color: #E4EDF2;
+    color: $highlightColor;
 }
 
 footer > ul > li > a{
     text-decoration: none;
-    color: #E4EDF2;
+    color: $highlightColor;
 }
 
 footer > ul > li > a:hover{
-    color: #010326;
+    color: $mainColor;
 }

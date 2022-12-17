@@ -1,0 +1,110 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #060949;
+}
+
+header {
+  max-width: 100%;
+  background-color: #010326;
+  height: 25vh;
+  color: #E4EDF2;
+  text-align: center;
+}
+
+.headerBC {
+  background-color: #010326;
+  color: #E4EDF2;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  height: 34px;
+  width: 179px;
+}
+
+nav {
+  height: 50px;
+  background-color: #59574C;
+}
+
+.navBC {
+  background-color: #59574C;
+}
+
+.containerBC {
+  background-color: #010326;
+}
+
+.colBC {
+  background-color: #E4EDF2;
+}
+
+#collapseOne > .accordion-body > .btn-dark {
+  background-color: #010326;
+}
+
+#collapseOne > .accordion-body > .btn-dark:hover {
+  background-color: #060949;
+}
+
+#collapseOne > .accordion-body > button > a {
+  text-decoration: none;
+  color: #E4EDF2;
+}
+
+#collapseThree > .accordion-body > .btn-dark {
+  background-color: #010326;
+}
+
+#collapseThree > .accordion-body > .btn-dark:hover {
+  background-color: #060949;
+}
+
+#collapseThree > .accordion-body > button > a {
+  text-decoration: none;
+  color: #E4EDF2;
+}
+
+#orderButton {
+  color: #E4EDF2;
+  background-color: #010326;
+}
+
+#orderButton:hover {
+  background-color: #060949;
+}
+
+footer {
+  background-color: #465902;
+  margin-bottom: 0px;
+}
+
+.orderFormBC {
+  background-color: #E4EDF2;
+}
+
+footer > ul {
+  list-style-type: none;
+}
+
+footer > ul > li {
+  display: inline;
+}
+
+footer > ul > li:not(:first-child)::before {
+  content: "|";
+  color: #E4EDF2;
+}
+
+footer > ul > li > a {
+  text-decoration: none;
+  color: #E4EDF2;
+}
+
+footer > ul > li > a:hover {
+  color: #010326;
+}
+
+/*# sourceMappingURL=processed-style.css.map */
