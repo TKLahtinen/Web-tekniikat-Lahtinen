@@ -78,7 +78,6 @@ nav {
 
 footer {
   background-color: #465902;
-  margin-bottom: 0px;
 }
 
 .orderFormBC {
@@ -88,18 +87,16 @@ footer {
 footer > ul {
   list-style-type: none;
 }
-
-footer > ul > li {
+footer > ul li {
   display: inline;
+}
+footer > ul li a {
+  text-decoration: none;
+  color: #E4EDF2;
 }
 
 footer > ul > li:not(:first-child)::before {
   content: "|";
-  color: #E4EDF2;
-}
-
-footer > ul > li > a {
-  text-decoration: none;
   color: #E4EDF2;
 }
 

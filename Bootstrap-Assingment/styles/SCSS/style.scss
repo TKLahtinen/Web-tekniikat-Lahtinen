@@ -85,7 +85,6 @@ nav{
 
 footer{
     background-color: $footerColor;
-    margin-bottom: 0px;
 }
 
 .orderFormBC{
@@ -94,22 +93,22 @@ footer{
 
 footer > ul{
     list-style-type: none;
-    
+    li{
+        display: inline;
+        a{
+            text-decoration: none;
+            color: $highlightColor;
+            
+        }
+    }   
 }
 
-footer > ul > li{
-    display: inline;
-}
 
 footer > ul > li:not(:first-child)::before{
     content: "|";
     color: $highlightColor;
 }
 
-footer > ul > li > a{
-    text-decoration: none;
-    color: $highlightColor;
-}
 
 footer > ul > li > a:hover{
     color: $mainColor;
