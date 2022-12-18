@@ -17,12 +17,16 @@ body{
     background-color: $fillColor;
 }
 
+/* Used mixin for header colors */
+
 header{
     @include headerStyle;
     max-width: 100%;
     height: 25vh;
     text-align: center;
 }
+
+/* Example of operation with SASS height is 25px + 25px */
 
 nav{
     height: 25px + 25px;
@@ -40,6 +44,8 @@ nav{
 .colBC{
     background-color: $highlightColor;
 }
+
+/* Examples of > selector */
 
 #collapseOne > .accordion-body > .btn-dark{
     background-color: $mainColor;
@@ -84,6 +90,8 @@ footer{
     background-color: $highlightColor;
 }
 
+/* Example about nesting */
+
 footer > ul{
     list-style-type: none;
     li{
@@ -96,6 +104,7 @@ footer > ul{
     }   
 }
 
+/* Example of pseudoselectors */
 
 footer > ul > li:not(:first-child)::before{
     content: "|";
@@ -106,6 +115,8 @@ footer > ul > li:not(:first-child)::before{
 footer > ul > li > a:hover{
     color: $mainColor;
 }
+
+/* Example of + ~ and [] selectors */
 
 hr + div{
     font-weight: bold;
