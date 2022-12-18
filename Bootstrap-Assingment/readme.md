@@ -1,4 +1,4 @@
-# Bootstrap Assigmment
+# Bootstrap Assignment
 
 This folder contains bootstrap assignment. I have also made other assignments linked to this starting with UI design. All asssignments follows in order.
 
@@ -31,6 +31,7 @@ Form - Order: In order form there is used bootstrap form components with dropdow
 
 Other: Every container and picture are rounded with bootstrap class. Images also has width set with bootstrap.
 
+# Advanced CSS
 
-
-
+First I use traditional CSS for getting the page look correct. Original style.css has not been changed after I used SASS.
+For this assignment I used SASS and changed stylesheets to processsed-style.css. I made changes only to style.scss after that. In style.scss file there is atleast one example for each required point.
