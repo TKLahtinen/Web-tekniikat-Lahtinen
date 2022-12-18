@@ -14,16 +14,6 @@ header {
   text-align: center;
 }
 
-.headerBC {
-  background-color: #010326;
-  color: #E4EDF2;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  height: 34px;
-  width: 179px;
-}
-
 nav {
   height: 50px;
   background-color: #59574C;
