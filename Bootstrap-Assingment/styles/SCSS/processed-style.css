@@ -7,10 +7,10 @@ body {
 }
 
 header {
-  max-width: 100%;
   background-color: #010326;
-  height: 25vh;
   color: #E4EDF2;
+  max-width: 100%;
+  height: 25vh;
   text-align: center;
 }
 
@@ -92,6 +92,18 @@ footer > ul > li:not(:first-child)::before {
 
 footer > ul > li > a:hover {
   color: #010326;
+}
+
+hr + div {
+  font-weight: bold;
+}
+
+label ~ label {
+  font-weight: bold;
+}
+
+label[target] {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=processed-style.css.map */

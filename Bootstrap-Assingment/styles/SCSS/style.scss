@@ -4,6 +4,10 @@ $highlightColor: #E4EDF2;
 $navColor: #59574C;
 $footerColor: #465902;
 
+@mixin headerStyle{
+    background-color: $mainColor;
+    color: $highlightColor;
+}
 
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,15 +18,14 @@ body{
 }
 
 header{
+    @include headerStyle;
     max-width: 100%;
-    background-color: $mainColor;
     height: 25vh;
-    color: $highlightColor;
     text-align: center;
 }
 
 nav{
-    height: 50px;
+    height: 25px + 25px;
     background-color: $navColor;
 }
 
@@ -102,4 +105,16 @@ footer > ul > li:not(:first-child)::before{
 
 footer > ul > li > a:hover{
     color: $mainColor;
+}
+
+hr + div{
+    font-weight: bold;
+}
+
+label ~ label{
+    font-weight: bold;
+}
+
+label[target]{
+    font-weight: bold;
 }
