@@ -34,4 +34,9 @@ Other: Every container and picture are rounded with bootstrap class. Images also
 # Advanced CSS
 
 First I use traditional CSS for getting the page look correct. Original style.css has not been changed after I used SASS.
+
 For this assignment I used SASS and changed stylesheets to processsed-style.css. I made changes only to style.scss after that. In style.scss file there is atleast one example for each required point.
+
+I also made variables for colors that I used for simplicity
+
+There is also example about mixin which I used in header
