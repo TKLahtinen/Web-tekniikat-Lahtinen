@@ -24,23 +24,21 @@ header{
     width: 179px;
 }
 
+/* Nav backround color */
 nav{
     height: 50px;
     background-color: #59574C;
 }
 
-.navBC{
-    background-color: #59574C;
-}
-
+/*Container backroundcolor */
 .containerBC{
     background-color: #010326;
 }
-
+/*Column background color*/
 .colBC{
     background-color: #E4EDF2;
 }
-
+/* Accordion selectors matching colors for theme */
 #collapseOne > .accordion-body > .btn-dark{
     background-color: #010326;
 }
@@ -67,6 +65,7 @@ nav{
     color: #E4EDF2;
 }
 
+/* Colors for order form */
 #orderButton {
     color: #E4EDF2;
     background-color: #010326;
@@ -81,10 +80,12 @@ footer{
     margin-bottom: 0px;
 }
 
+/*Order form backgroundcolor*/
 .orderFormBC{
     background-color: #E4EDF2;
 }
 
+/* Selectors for footer styling*/
 footer > ul{
     list-style-type: none;
     
